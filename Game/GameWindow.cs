@@ -13,9 +13,8 @@ namespace FlappyBird.Game
 
         public void Init()
         {
-            InitWindow(screenWidth, screenHeight, "raylib [core] example - basic window");
+            InitWindow(screenWidth, screenHeight, "Flappy Bird Made By SakizciAdam");
             InitAudioDevice();
-            Console.WriteLine("Loading");
             AssetLoader.Load();
             SetTargetFPS(144);
             gameManager.stopwatch.Start();
